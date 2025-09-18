@@ -99,6 +99,7 @@ const ContactCollaborator: React.FC<{ data: CollaboratorData }> = ({
                   width={200}
                   height={80}
                   className="!w-[200px] !h-[80px]"
+                  unoptimized
                 />
               </div>
             </div>
@@ -118,6 +119,7 @@ const ContactCollaborator: React.FC<{ data: CollaboratorData }> = ({
                   width={200}
                   height={80}
                   className="!w-[200px] !h-[80px]"
+                  unoptimized
                 />
               </div>
             </div>

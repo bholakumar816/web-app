@@ -100,6 +100,7 @@ const ContactMain: React.FC<{ data: contactProp }> = ({ data }) => {
                           height={48}
                           alt={testimonial.name}
                           className="object-cover"
+                          unoptimized
                         />
                       ) : (
                         <NoProfilePic />
