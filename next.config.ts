@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "strapi-add.onrender.com",
-        port: "1337",
+        port: "",
         pathname: "/uploads/**",
       },
     ],

@@ -102,7 +102,7 @@ export function flattenAttributes<T>(data: T): Flattened<T> {
 }
 
 export function getStrapiURL(): string {
-  return process.env.STRAPI_BASE_URL ?? "http://localhost:1337";
+  return process.env.STRAPI_BASE_URL ?? '';
 }
 
 export function getStrapiMedia(url: string | null): string | null {
